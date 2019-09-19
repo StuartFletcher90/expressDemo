@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: #bcdafd36;
+    font-style: 'Roboto', 'arial-sans';
+}
+
+.big-banner {
+    margin-top: 20px;
+    background-image: url("./alchemy.gif");
+    background-size: 100%, 100%;
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    opacity: 0.9;
+}
+
+.container {
+    margin-bottom: 8%;
+    margin-top: 5%;
+}
+.btn-primary {
+    background-color: rgb(108, 184, 255);
+    border-color: rgb(87, 159, 226);
+    margin-top: 70px;
+    text-shadow: 2px 2px rgb(65, 161, 250);
+}
+
+.card-header {
+    background-color: rgb(108, 184, 255);
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+/* hover stuff */
+.btn-primary:hover {
+    background-color: rgb(56, 139, 216);
+    border-color: rgb(38, 113, 184);
+}
